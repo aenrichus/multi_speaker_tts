@@ -1,5 +1,5 @@
-import Hyper_Parameters;
-import tensorflow as tf;
+import Hyper_Parameters
+import tensorflow as tf
 
 Sound = tf.contrib.training.HParams(**{
     'Sample_Rate': 16000,
